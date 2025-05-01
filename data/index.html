@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X_UA-Compatible" content="ie=edge">
+    <title>D3</title>
+    <link rel="stylesheet" href="app.css"> 
+    <!-- <link rel="stylesheet" href="final-pj.css"> -->
+    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+    <script src="d3.v5.js"></script>
+    <script src="d3-tip-v0.7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+
+<body>
+    
+    <div class="dashboard-intro">
+        <h1>Social Media Sentiment Dashboard</h1>
+        <p>
+          This dashboard presents an analysis of social media posts, focusing on sentiment distribution, geographical trends, and prevalent topics.
+          Utilizing data visualization techniques, we aim to uncover patterns and insights that inform understanding and decision-making.
+        </p>
+      </div>
+
+    <div class="canva">
+
+        <div class="chartbox" id="chart1"></div>
+        <div class="chartbox" id="chart2"></div>
+        <div class="chartbox" id="chart3"></div> 
+    <div class="reflection-section" style="max-width:700px;margin:32px auto 0;background:#f5f6fa;padding:22px 28px;border-radius:10px;font-size:1.07em;">
+      <h2 style="margin-top:0;color:#3076b7;">Reflection</h2>
+      <b>Audience:</b> Anyone interested in social media trends and sentiment (students, marketers, researchers).<br><br>
+      <b>Goal:</b> Make complex post data easy to understand: Who posts, what they say, and how they feel.<br><br>
+      <b>What worked:</b> Bar chart and map made patterns obvious, word cloud was visually engaging, tooltips added value.<br>
+      <b>Challenges:</b> Matching country codes, cleaning data, and keeping charts readable.<br>
+      <b>Compromises:</b> Limited rare words/countries and simplified legends for clarity.<br><br>
+      <b>Takeaway:</b> Most viewers understood the dashboard, but some suggested moving the legend, adding filters, or letting users interact with the word cloud.
+    </div>
+        
+   
+        
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+<script src="numerical-bar-chart.js"></script>
+<script src="spatial-map.js"></script>
+<script src="textual-table.js"></script>
+
+</html>
